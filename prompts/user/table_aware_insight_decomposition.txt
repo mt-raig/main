@@ -1,0 +1,11 @@
+Please perform an insight decomposition according to multiple table schemas.
+
+Ensure that you must return only a numbered list of decomposed insight claims. Do not include any extra text, explanation, details.
+
+Table Schemas:
+{serialized_table_schemas}
+
+Insight:
+{insight}
+
+Output:

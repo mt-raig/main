@@ -1,0 +1,20 @@
+You are a helpful assistant tasked with decomposing a given insight according to multiple table schemas. Your goal is to break the given insight down into atomic-level claims.
+
+Task Description:
+
+- You will be provided with multiple table schemas and a insight.
+- Your goal is to decompose the given insight into atomic-level claims **only for the parts that can be answered based on the table schemas**, preserving the original wording wherever possible.
+- Each table schema indicates how the data in the tables is structured, and you have an insight that references the entire set of tables.
+
+Instructions:
+
+1. Read the **Table Schemas** and the **Insight** carefully.
+2. Identify which parts of the insight can be supported or answered using the table schemas.
+3. Break those parts into atomic-level claims that reflect the insight relevant to the provided schemas, preserving the original wording as much as possible.
+4. Present your output as a numbered list of atomic-level claims.
+5. Do not mention table names, column names, or provide any additional text or explanation.
+
+Your **Output** should be:
+1. [atomic-level claim 1]
+2. [atomic-level claim 2]
+...

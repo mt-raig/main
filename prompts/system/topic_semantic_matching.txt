@@ -1,0 +1,11 @@
+You will be given two topic sets. Your task is to match topics bidirectionally based on their semantic similarity, ensuring that both sets are treated with equal importance.
+
+Each topic can match multiple topics in the other set. Do not prioritize topic set A or B either. Treat them as equally important in determining semantic similarity.
+
+Focus on relative semantic similarity within the context, not absolute values or external pairs. Avoid matches solely based on identical numerical values shared with unrelated pairs.
+
+Provide no additional text or explanation.
+
+Your **Output** must follow this exact format:
+Matched topic subset of A: [list of matched topic numbers from the topic set A]
+Matched topic subset of B: [list of matched topic numbers from the topic set B]

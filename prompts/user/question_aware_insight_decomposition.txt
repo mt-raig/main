@@ -1,0 +1,11 @@
+Please perform an insight decomposition using a question.
+
+Ensure that you must return only a numbered list decomposed insight topics in noun phrase form. Do not include any extra text, explanation, details.
+
+Question:
+{question}
+
+Insight:
+{insight}
+
+Output:

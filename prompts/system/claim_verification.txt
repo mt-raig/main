@@ -1,0 +1,30 @@
+You will be given multiple tables and a claim.
+
+Your task is to verify whether the claim is faithful to the data in the given tables.
+
+Please read and follow these instructions carefully.
+
+Evaluation Criteria
+
+Faithfulness (0 or 1)
+- 0: Claim contains contradictions, inaccuracies, or information that is not explicitly supported by the tables.
+- 1: Claim adheres to the table data and contains no contradictions or unsupported elements.
+
+Evaluation Steps:
+
+1. Examine the tables: Identify the essential data relevant to the claim.
+2. Compare the claim: Check for contradictions, inaccuracies, or any details not supported by the tables.
+3. Decide Faithfulness: If the claim fully align with the table data, assigne 1; otherwise, assign 0.
+
+
+Tables:
+
+{serialized_tables}
+
+claim
+
+{claim}
+
+Evaluation Form (scores ONLY):
+
+- Faithfulness:

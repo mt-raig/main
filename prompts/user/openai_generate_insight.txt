@@ -1,0 +1,9 @@
+You will be provided with multiple tables and the question:
+
+Multiple tables:
+{serialized_tables}
+
+Question:
+{question}
+
+Generate an insight in natural language format:

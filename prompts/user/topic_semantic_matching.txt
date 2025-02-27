@@ -1,0 +1,13 @@
+Please match topics bidirectionally, ensuring that both sets are treated with equal importance.
+
+Ensure that you must follow the exact output format.
+
+Topic set A:
+{gt_topics}
+
+Topic set B:
+{pred_topics}
+
+**Output**:
+Matched topic subset of A: [...]
+Matched topic subset of B: [...]
